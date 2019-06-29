@@ -1,0 +1,15 @@
+
+td{
+	background: blue;
+	color: white;
+	border-bottom: 3px solid transparent;
+	height: 30px;
+}
+a{
+	color: aquamarine;
+}
+.title{
+	background: white;
+	color: black;
+	text-align: center;
+}

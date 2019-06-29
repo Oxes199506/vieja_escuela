@@ -1,0 +1,123 @@
+body{
+	background-image: url("../img/fondusuario.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+/* validaciones */
+.error{
+	color:red;
+	background: #F5C3BC;
+	width: 350px;
+	border-radius: 10px 10px;
+	text-align: center;
+	padding: 1px 1px;
+	border:2px solid red;
+}
+.validate{
+	color:green;
+	background: #C4F5BC;
+	width: 350px;
+	border-radius: 10px 10px;
+	text-align: center;
+	padding: 1px 1px;
+	border:2px solid green;
+}
+
+/*menu de usuario*/
+.lateral{
+	background: blue;
+	height: 40px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+.log{
+	width: 40px;
+}
+.late{
+float: left;
+}
+.button{
+		float: right;
+		list-style-type: none;
+   		margin: 0;
+    	padding: 0;
+    	background-color: #37474F;
+   		width: auto;
+   		border-radius: 5px 5px 5px 5px;
+		}
+.button li{
+			display: inline-flex;
+			shape-margin: 0;
+			padding: 0;
+			border-bottom: 2px solid white;
+			border-radius: 5px 5px 5px 5px;
+		}
+		li a{
+			text-decoration: none;
+			color: white;
+		    padding: 8px 20px;
+		    width: 100px;
+		    border-bottom: 2px solid white;
+		    transition: all 1s;
+		    text-align: center;
+    		}
+    	li:last-child {
+   			 border-bottom: none;
+		}
+		li a:hover {
+    		background-color:#E53935;
+    			}
+   h1{
+   	color: white;
+   }
+/*edicion formulario subirpdf combinado con styles(imputs)*/
+
+.sub{
+	background: #9BCAF0;
+	width: 600px;
+	padding: 10px 10px;
+	border-radius: 15px 15px 15px 15px;
+	opacity: 0.85;
+}
+
+.file{
+background: #3C99E4;
+width: 550px;
+height: 100px;
+border-bottom: 3px solid blue;
+border-radius: 10px 10px 10px 10px;
+}
+
+textarea{
+	width: 500px;
+	height: 70px;
+	border-radius: 10px 10px;
+}
+input{
+	margin-bottom: 15px;
+	border:0px;
+	border-bottom: 2px solid black;
+	background: transparent;
+	width: 350px;
+	height: 35px;
+	transition:all 1s;
+}
+input:hover{
+	border-bottom: 2px solid #2ECC71;
+	background: #D5F5E3;
+}
+label{
+	color: #85929E;
+}
+.btn{
+	width: 350px;
+	height: 35px;
+	border-radius: 1rem 1rem;
+	border:none;
+	background: #208FE8;
+	transition: all 2s;
+}
+.btn:hover{
+	background: #1B9851;
+	color: white;
+}
